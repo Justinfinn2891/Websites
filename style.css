@@ -1,0 +1,60 @@
+body{
+    background-color: gold;
+}
+
+.style-wrapper{
+    width:100%;
+
+}
+
+.style-container{
+
+    position:absolute;
+    top:400px;
+    left:55px;
+    padding:100px;
+    background: #ececec;
+    width:120px;
+    border-radius: 10px;
+    outline-color:black;
+    outline-width:1px;
+    outline-style:ridge;
+}
+
+.text-container{
+    
+    position: absolute;
+    background-color: white;
+    padding:20px;
+    top:12px;
+    width:273px;
+    left:3.5px;
+    border-radius: 5px;
+    outline-color:black;
+    outline-width:.5px;
+    outline-style:ridge;
+}
+#no-text{
+    position:absolute;
+    top:10px;
+    left:6px;
+}
+.button-container{
+    position:absolute;
+    width:70px;
+    padding:10px;
+}
+#yes-button{
+    position:absolute;
+    left:75px;
+}
+#no-button{
+    position:absolute;
+    left:175px;
+}
+@media (max-width:600px){
+    .style-wrapper{
+        width:100%;
+    
+    } 
+}
