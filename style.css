@@ -7,11 +7,16 @@ body{
 
 }
 
+.box-wrapper{
+    position:relative;
+    width:5px;
+}
+
 .style-container{
 
     position:absolute;
     top:400px;
-    left:55px;
+    left:30px;
     padding:100px;
     background: #ececec;
     width:120px;
@@ -57,4 +62,20 @@ body{
         width:100%;
     
     } 
+  .style-container{
+    width:100%;
+  }
+  .box-wrapper{
+    width:30%;
+  }
+  .text-container{
+    width:84%;
+  }
+  .button-container{
+    width:15%;
+  }
+  #no-text{
+    width:100%;
+    font-size:15px;
+  }
 }
